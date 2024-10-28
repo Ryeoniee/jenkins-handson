@@ -59,7 +59,7 @@ spec:
         stage ('Clone') {
             steps {
                 container('maven')  {
-                    git url: 'https://github.com/yoonjk/jenkins-handson.git', branch: 'dev'
+                    git url: 'https://github.com/Ryeoniee/jenkins-handson.git', branch: 'dev'
                 }
             }
         }
